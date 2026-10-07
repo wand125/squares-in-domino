@@ -1,3 +1,5 @@
+> **Moved:** this repository is now part of [wand125/square-packing](https://github.com/wand125/square-packing/tree/main/problems/domino) (`problems/domino/`). This copy is archived; every path is mapped in `MOVED.json`, and old links, commits and releases keep working.
+
 # Unit squares in a 1:2 rectangle (domino): the optimal packing of 4 squares
 
 Let s(n) be the smallest v such that n non-overlapping unit squares (any positions, any angles)

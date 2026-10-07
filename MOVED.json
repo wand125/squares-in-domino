@@ -1,0 +1,225 @@
+{
+ "schema": "moved/v1",
+ "old_repository": "wand125/squares-in-domino",
+ "old_head": "6178f86c86a62f422c1a02c191ddcde3b78cedcb",
+ "new_repository": "wand125/square-packing",
+ "note": "Every path of the old repository at old_head and where it lives now: 'new' is a path in the new repository's git tree (documents, code, metadata); 'new_release' is a release asset (certificate data) with the path inside it. The old repository is archived (read-only); its history and releases remain available.",
+ "paths": [
+  {
+   "old": "certificates/n4/PROOF.md",
+   "new": "problems/domino/certificates/n4/PROOF.md"
+  },
+  {
+   "old": "certificates/n4/below/n4_L1927_1000.check_record.json",
+   "new": "problems/domino/certificates/n4/below/n4_L1927_1000.check_record.json"
+  },
+  {
+   "old": "certificates/n4/below/n4_L1927_1000.json",
+   "new": null,
+   "new_release": {
+    "tag": "domino-v1",
+    "assets": [
+     "certificates__n4.tar.gz"
+    ],
+    "sha256": [
+     "eba36dac069dade1015a79a70fd39d26a1d6f067afe7f884e5d118505e713d28"
+    ],
+    "path_inside": "certificates/n4/below/n4_L1927_1000.json",
+    "unpack": "tar xzf certificates__n4.tar.gz -C problems/domino"
+   }
+  },
+  {
+   "old": "certificates/n4/below/n4_L77_40.check_record.json",
+   "new": "problems/domino/certificates/n4/below/n4_L77_40.check_record.json"
+  },
+  {
+   "old": "certificates/n4/below/n4_L77_40.json",
+   "new": null,
+   "new_release": {
+    "tag": "domino-v1",
+    "assets": [
+     "certificates__n4.tar.gz"
+    ],
+    "sha256": [
+     "eba36dac069dade1015a79a70fd39d26a1d6f067afe7f884e5d118505e713d28"
+    ],
+    "path_inside": "certificates/n4/below/n4_L77_40.json",
+    "unpack": "tar xzf certificates__n4.tar.gz -C problems/domino"
+   }
+  },
+  {
+   "old": "certificates/n4/below/n4_L957_500.check_record.json",
+   "new": "problems/domino/certificates/n4/below/n4_L957_500.check_record.json"
+  },
+  {
+   "old": "certificates/n4/below/n4_L957_500.json",
+   "new": null,
+   "new_release": {
+    "tag": "domino-v1",
+    "assets": [
+     "certificates__n4.tar.gz"
+    ],
+    "sha256": [
+     "eba36dac069dade1015a79a70fd39d26a1d6f067afe7f884e5d118505e713d28"
+    ],
+    "path_inside": "certificates/n4/below/n4_L957_500.json",
+    "unpack": "tar xzf certificates__n4.tar.gz -C problems/domino"
+   }
+  },
+  {
+   "old": "certificates/n4/below/n4_L9651_5000.check_record.json",
+   "new": "problems/domino/certificates/n4/below/n4_L9651_5000.check_record.json"
+  },
+  {
+   "old": "certificates/n4/below/n4_L9651_5000.json",
+   "new": null,
+   "new_release": {
+    "tag": "domino-v1",
+    "assets": [
+     "certificates__n4.tar.gz"
+    ],
+    "sha256": [
+     "eba36dac069dade1015a79a70fd39d26a1d6f067afe7f884e5d118505e713d28"
+    ],
+    "path_inside": "certificates/n4/below/n4_L9651_5000.json",
+    "unpack": "tar xzf certificates__n4.tar.gz -C problems/domino"
+   }
+  },
+  {
+   "old": "certificates/n4/check_record.json",
+   "new": "problems/domino/certificates/n4/check_record.json"
+  },
+  {
+   "old": "certificates/n4/n4_cert.json",
+   "new": null,
+   "new_release": {
+    "tag": "domino-v1",
+    "assets": [
+     "certificates__n4.tar.gz"
+    ],
+    "sha256": [
+     "eba36dac069dade1015a79a70fd39d26a1d6f067afe7f884e5d118505e713d28"
+    ],
+    "path_inside": "certificates/n4/n4_cert.json",
+    "unpack": "tar xzf certificates__n4.tar.gz -C problems/domino"
+   }
+  },
+  {
+   "old": ".gitignore",
+   "new": "problems/domino/.gitignore"
+  },
+  {
+   "old": "LICENSE",
+   "new": "problems/domino/LICENSE"
+  },
+  {
+   "old": "README.md",
+   "new": "problems/domino/README.md"
+  },
+  {
+   "old": "certificates/SHA256SUMS",
+   "new": "problems/domino/certificates/SHA256SUMS"
+  },
+  {
+   "old": "checker/README.md",
+   "new": "problems/domino/checker/README.md"
+  },
+  {
+   "old": "checker/check.py",
+   "new": "problems/domino/checker/check.py"
+  },
+  {
+   "old": "checker/poly.py",
+   "new": "problems/domino/checker/poly.py"
+  },
+  {
+   "old": "checker/q3.py",
+   "new": "problems/domino/checker/q3.py"
+  },
+  {
+   "old": "checker/tests/test_certificates.py",
+   "new": "problems/domino/checker/tests/test_certificates.py"
+  },
+  {
+   "old": "checker/tests/test_field.py",
+   "new": "problems/domino/checker/tests/test_field.py"
+  },
+  {
+   "old": "checker2/README.md",
+   "new": "problems/domino/checker2/README.md"
+  },
+  {
+   "old": "checker2/kfield.py",
+   "new": "problems/domino/checker2/kfield.py"
+  },
+  {
+   "old": "checker2/q3.py",
+   "new": "problems/domino/checker2/q3.py"
+  },
+  {
+   "old": "checker2/results/control_v4_plus_1e-6.json",
+   "new": "problems/domino/checker2/results/control_v4_plus_1e-6.json"
+  },
+  {
+   "old": "checker2/results/n4_L1927_1000.json",
+   "new": "problems/domino/checker2/results/n4_L1927_1000.json"
+  },
+  {
+   "old": "checker2/results/n4_L77_40.json",
+   "new": "problems/domino/checker2/results/n4_L77_40.json"
+  },
+  {
+   "old": "checker2/results/n4_L957_500.json",
+   "new": "problems/domino/checker2/results/n4_L957_500.json"
+  },
+  {
+   "old": "checker2/results/n4_L9651_5000.json",
+   "new": "problems/domino/checker2/results/n4_L9651_5000.json"
+  },
+  {
+   "old": "checker2/results/n4_cert.json",
+   "new": "problems/domino/checker2/results/n4_cert.json"
+  },
+  {
+   "old": "checker2/sweep.py",
+   "new": "problems/domino/checker2/sweep.py"
+  },
+  {
+   "old": "checker2/sweep_k.py",
+   "new": "problems/domino/checker2/sweep_k.py"
+  },
+  {
+   "old": "controls/README.md",
+   "new": "problems/domino/controls/README.md"
+  },
+  {
+   "old": "controls/control_v4_no_wedges.json",
+   "new": "problems/domino/controls/control_v4_no_wedges.json"
+  },
+  {
+   "old": "controls/control_v4_no_wedges.record.json",
+   "new": "problems/domino/controls/control_v4_no_wedges.record.json"
+  },
+  {
+   "old": "controls/control_v4_plus_1e-3.json",
+   "new": "problems/domino/controls/control_v4_plus_1e-3.json"
+  },
+  {
+   "old": "controls/control_v4_plus_1e-3.record.json",
+   "new": "problems/domino/controls/control_v4_plus_1e-3.record.json"
+  },
+  {
+   "old": "controls/control_v4_plus_1e-6.json",
+   "new": "problems/domino/controls/control_v4_plus_1e-6.json"
+  },
+  {
+   "old": "controls/control_v4_plus_1e-6.record.json",
+   "new": "problems/domino/controls/control_v4_plus_1e-6.record.json"
+  },
+  {
+   "old": "tools/make_cert.py",
+   "new": "problems/domino/tools/make_cert.py"
+  }
+ ],
+ "releases": []
+}
